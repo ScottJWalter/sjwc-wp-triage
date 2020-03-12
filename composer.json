@@ -1,0 +1,24 @@
+{
+    "name": "scottjwalter/sjwc-wp-triage",
+    "description": "Fork of WP-Triage",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "eloquent/composer-npm-bridge": "^4.1",
+        "roave/security-advisories": "dev-master",
+        "monolog/monolog": "^1.12",
+        "sensiolabs/security-checker": "^6.0"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.9",
+        "kint-php/kint": "^3.3",
+        "kint-php/kint-js": "^2.0"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Scott Walter",
+            "email": "sjwalter@gmail.com"
+        }
+    ]
+}
